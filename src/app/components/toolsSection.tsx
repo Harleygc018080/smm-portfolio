@@ -2,7 +2,7 @@ const ToolsSection = () => {
     return (
       <section id="tools" className="py-16 bg-blue-100">
         <h1 className="text-4xl font-bold text-center text-gray-700 mb-8">
-          Tools I’d love to use
+          Tools I&#39;d love to use
         </h1>
         <div className="container mx-auto grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
           {[
