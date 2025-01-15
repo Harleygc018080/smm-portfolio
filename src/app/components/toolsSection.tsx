@@ -19,7 +19,7 @@ const ToolsSection = () => {
               key={index}
               className="tool bg-white w-32 h-32 mx-auto flex items-center justify-center rounded-lg shadow-md hover:blue-600 shadow hover:bg-gray-300 transition"
             >
-              <img
+              <image
                 src={tool.src}
                 alt={tool.alt}
                 className="w-20 h-20 object-contain"
