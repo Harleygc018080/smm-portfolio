@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaInstagram } from 'react-icons/fa';
-import { FaLinkedinIn } from 'react-icons/fa';
+import { FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 const WelcomeSection = () => {
   return (
@@ -14,7 +13,7 @@ const WelcomeSection = () => {
         <div className="lg:w-1/2">
           <h1 className="text-6xl font-bold text-gray-800">Hello, I'm Harley.</h1>
           <p className="mt-4 text-xl text-gray-600">
-            I'm a Web Designer and a Social Media Manager
+            I&#39;m a Web Designer and a Social Media Manager
           </p>
 
           {/* Social Media Icons */}
