@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FaInstagram } from 'react-icons/fa';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 const WelcomeSection = () => {
   return (
@@ -26,7 +28,7 @@ const WelcomeSection = () => {
                 className="hover:opacity-80"
               />
             </Link>
-            <Link href="https://instagram.com" target="_blank">
+            <Link href="https://www.instagram.com/nevermindharley/" target="_blank">
               <FaInstagram className="text-pink-600 text-3xl hover:text-pink-800" />
             </Link>
             <Link href="https://www.linkedin.com/in/harleycarbonell/" target="_blank">
